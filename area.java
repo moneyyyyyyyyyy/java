@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.lang.*;
 abstract class Shape
@@ -55,11 +54,9 @@ public static void main(String args[])
 {
 Rectangle r=new Rectangle(4,5);
 Triangle t=new Triangle(5,4);
-Circle c=new Circle(1);
+Circle c=new Circle(12);
 r.printArea();
 t.printArea();
 c.printArea();
 }
 }
-
-
